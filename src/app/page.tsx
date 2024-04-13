@@ -12,6 +12,14 @@ import { Button } from '@chakra-ui/react';
 import { MouseEventHandler } from 'react';
 import { saveAs } from 'file-saver'; 
 import { Center, Square, Circle } from '@chakra-ui/react';
+import { Link } from '@chakra-ui/react'
+import {
+  List,
+  ListItem,
+  ListIcon,
+  OrderedList,
+  UnorderedList,
+} from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -73,7 +81,23 @@ export default function Home() {
                 </Text>
               </TabPanel>
               <TabPanel>
-                <p>two!</p>
+                <Text>
+                  I am familiar with the following frameworks and languages:
+                  <UnorderedList>
+                    <ListItem>Node.js, React, Next.js</ListItem>
+                    <ListItem>Express, Handlebars.js</ListItem>
+                    <ListItem>HTML, CSS, JavaScript</ListItem>
+                    <ListItem>MySQL, Prisma, MongoDB, Mongoose</ListItem>
+                    <ListItem>Java, JavaFX, JSP, JUnit</ListItem>
+                    <ListItem>Python</ListItem>
+                    <ListItem>C, C++</ListItem>
+                    <ListItem>x86-64</ListItem>
+                  </UnorderedList>
+                </Text>
+                <br/>
+                <Text>
+                  To see my projects, check out my <Link href='https://github.com/howard-rose' color='teal.500'>GitHub</Link>!
+                </Text>
               </TabPanel>
               <TabPanel>
                 <Text as='b'>
