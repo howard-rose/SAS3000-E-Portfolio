@@ -31,12 +31,12 @@ export default function Home() {
           />
           <Stack>
             <CardHeader>
-              <Heading>Hello, I'm Philip Santiago!</Heading>
+              <Heading>Hello, I&apos;m Philip Santiago!</Heading>
             </CardHeader>
             <CardBody>
               <Text fontSize='20px'>
-                Welcome to my E-Portfolio! I'm Philip, a 3rd year student currently taking Bachelor of Science and Master of Science in Computer Science at De La Salle University - Manila.
-                Programming and problem solving are some of my passions, and I'm aspiring to become a software developer/engineer in the future.
+                Welcome to my E-Portfolio! I&apos;m Philip, a 3rd year student currently taking Bachelor of Science and Master of Science in Computer Science at De La Salle University - Manila.
+                Programming and problem solving are some of my passions, and I&apos;m aspiring to become a software developer/engineer in the future.
               </Text>
             </CardBody>
             <CardFooter>
@@ -68,7 +68,7 @@ export default function Home() {
 
                 I have a strong set of standards and beliefs that I hold myself to: I will always try to do what I think is right.
 
-                Generally, I try to stay within my comfort zone, but I'd like to try being more open-minded and try out new things more often.
+                Generally, I try to stay within my comfort zone, but I&apos;d like to try being more open-minded and try out new things more often.
               </Text>
             </TabPanel>
             <TabPanel>
